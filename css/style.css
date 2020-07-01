@@ -244,7 +244,7 @@ input[type="month"] {
   -webkit-appearance: listbox; }
 
 
-}
+
 textarea {
   overflow: auto;
   resize: vertical; }
@@ -3361,15 +3361,6 @@ input[type="button"].btn-block {
       -o-transition: none;
       transition: none; } }
 
-. {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none; }
 
 .nav-link {
   display: block;
@@ -8615,7 +8606,7 @@ h1, h2, h3, h4, h5,
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #3dd12c !important;
-      background: ##3dd12c !important;
+      background: #3dd12c !important;
       color: #000000 !important; }
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #0096FE !important;
@@ -9256,7 +9247,6 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
-  -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
