@@ -8761,8 +8761,9 @@ h1, h2, h3, h4, h5,
     padding: 0 20px; }
     @media (max-width: 991.98px) {
       .ftco-partner .partner {
-        padding: 0 70px;
-        margin-bottom: 40px; } }
+        display: none;
+      }
+     }
 
 .services-1 {
   margin-bottom: 40px;
