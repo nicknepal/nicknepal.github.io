@@ -8764,6 +8764,21 @@ h1, h2, h3, h4, h5,
         display: none;
       }
      }
+    
+    
+    
+     .wes{
+      display: none;
+      text-align: center;
+    }
+
+    @media (max-width: 991.8px) {
+      .wes{
+        display: block;
+      }
+     }
+
+
 
 .services-1 {
   margin-bottom: 40px;
